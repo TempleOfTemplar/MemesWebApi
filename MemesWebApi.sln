@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.Application", "Src\Core\MemesWebApi.Application\MemesWebApi.Application.csproj", "{D9DE95B6-7299-4CDF-AC60-95A76BF5C7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.Domain", "Src\Core\MemesWebApi.Domain\MemesWebApi.Domain.csproj", "{A5DEAFD5-8EB5-4D55-8E60-0D675248C09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.Infrastructure.FileManager", "Src\Infrastructure\MemesWebApi.Infrastructure.FileManager\MemesWebApi.Infrastructure.FileManager.csproj", "{EDE9F88A-C2BD-4C39-863C-71182F64D528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.Infrastructure.Identity", "Src\Infrastructure\MemesWebApi.Infrastructure.Identity\MemesWebApi.Infrastructure.Identity.csproj", "{233DA028-8D90-46CC-B5C8-6B02508B00DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.Infrastructure.Persistence", "Src\Infrastructure\MemesWebApi.Infrastructure.Persistence\MemesWebApi.Infrastructure.Persistence.csproj", "{D98964EB-5A2F-4369-8F99-24B7204389E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.Infrastructure.Resources", "Src\Infrastructure\MemesWebApi.Infrastructure.Resources\MemesWebApi.Infrastructure.Resources.csproj", "{82255CB0-2CB7-40B3-AD98-4EF5E305DD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.WebApi", "Src\Presentation\MemesWebApi.WebApi\MemesWebApi.WebApi.csproj", "{FE9C9C23-D0B2-4DD5-9388-6F0DA9299E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.FunctionalTests", "Tests\MemesWebApi.FunctionalTests\MemesWebApi.FunctionalTests.csproj", "{0B215243-9CCC-458C-83DB-CCEC9A9DC73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.IntegrationTests", "Tests\MemesWebApi.IntegrationTests\MemesWebApi.IntegrationTests.csproj", "{758E38BC-C188-40F9-A517-E4F36EAC26DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemesWebApi.UnitTests", "Tests\MemesWebApi.UnitTests\MemesWebApi.UnitTests.csproj", "{53755040-082A-4098-802A-8616EB3E2309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9DE95B6-7299-4CDF-AC60-95A76BF5C7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DE95B6-7299-4CDF-AC60-95A76BF5C7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DE95B6-7299-4CDF-AC60-95A76BF5C7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DE95B6-7299-4CDF-AC60-95A76BF5C7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DEAFD5-8EB5-4D55-8E60-0D675248C09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DEAFD5-8EB5-4D55-8E60-0D675248C09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DEAFD5-8EB5-4D55-8E60-0D675248C09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DEAFD5-8EB5-4D55-8E60-0D675248C09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE9F88A-C2BD-4C39-863C-71182F64D528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE9F88A-C2BD-4C39-863C-71182F64D528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE9F88A-C2BD-4C39-863C-71182F64D528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE9F88A-C2BD-4C39-863C-71182F64D528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233DA028-8D90-46CC-B5C8-6B02508B00DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233DA028-8D90-46CC-B5C8-6B02508B00DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233DA028-8D90-46CC-B5C8-6B02508B00DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233DA028-8D90-46CC-B5C8-6B02508B00DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98964EB-5A2F-4369-8F99-24B7204389E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98964EB-5A2F-4369-8F99-24B7204389E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98964EB-5A2F-4369-8F99-24B7204389E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98964EB-5A2F-4369-8F99-24B7204389E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82255CB0-2CB7-40B3-AD98-4EF5E305DD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82255CB0-2CB7-40B3-AD98-4EF5E305DD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82255CB0-2CB7-40B3-AD98-4EF5E305DD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82255CB0-2CB7-40B3-AD98-4EF5E305DD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9C9C23-D0B2-4DD5-9388-6F0DA9299E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9C9C23-D0B2-4DD5-9388-6F0DA9299E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9C9C23-D0B2-4DD5-9388-6F0DA9299E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9C9C23-D0B2-4DD5-9388-6F0DA9299E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B215243-9CCC-458C-83DB-CCEC9A9DC73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B215243-9CCC-458C-83DB-CCEC9A9DC73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B215243-9CCC-458C-83DB-CCEC9A9DC73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B215243-9CCC-458C-83DB-CCEC9A9DC73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758E38BC-C188-40F9-A517-E4F36EAC26DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758E38BC-C188-40F9-A517-E4F36EAC26DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758E38BC-C188-40F9-A517-E4F36EAC26DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758E38BC-C188-40F9-A517-E4F36EAC26DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53755040-082A-4098-802A-8616EB3E2309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53755040-082A-4098-802A-8616EB3E2309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53755040-082A-4098-802A-8616EB3E2309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53755040-082A-4098-802A-8616EB3E2309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C329FAA6-FDBD-4DA6-BC43-8C018BB51AAD}
+	EndGlobalSection
+EndGlobal

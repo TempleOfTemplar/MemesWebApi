@@ -1,0 +1,642 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Tests\\MemesWebApi.FunctionalTests\\MemesWebApi.FunctionalTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj",
+        "projectName": "MemesWebApi.Application",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj",
+        "projectName": "MemesWebApi.Domain",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.FileManager\\MemesWebApi.Infrastructure.FileManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.FileManager\\MemesWebApi.Infrastructure.FileManager.csproj",
+        "projectName": "MemesWebApi.Infrastructure.FileManager",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.FileManager\\MemesWebApi.Infrastructure.FileManager.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.FileManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Identity\\MemesWebApi.Infrastructure.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Identity\\MemesWebApi.Infrastructure.Identity.csproj",
+        "projectName": "MemesWebApi.Infrastructure.Identity",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Identity\\MemesWebApi.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Persistence\\MemesWebApi.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Persistence\\MemesWebApi.Infrastructure.Persistence.csproj",
+        "projectName": "MemesWebApi.Infrastructure.Persistence",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Persistence\\MemesWebApi.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj"
+              },
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Domain\\MemesWebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Resources\\MemesWebApi.Infrastructure.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Resources\\MemesWebApi.Infrastructure.Resources.csproj",
+        "projectName": "MemesWebApi.Infrastructure.Resources",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Resources\\MemesWebApi.Infrastructure.Resources.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Presentation\\MemesWebApi.WebApi\\MemesWebApi.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Presentation\\MemesWebApi.WebApi\\MemesWebApi.WebApi.csproj",
+        "projectName": "MemesWebApi.WebApi",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Presentation\\MemesWebApi.WebApi\\MemesWebApi.WebApi.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Presentation\\MemesWebApi.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Core\\MemesWebApi.Application\\MemesWebApi.Application.csproj"
+              },
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.FileManager\\MemesWebApi.Infrastructure.FileManager.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.FileManager\\MemesWebApi.Infrastructure.FileManager.csproj"
+              },
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Identity\\MemesWebApi.Infrastructure.Identity.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Identity\\MemesWebApi.Infrastructure.Identity.csproj"
+              },
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Persistence\\MemesWebApi.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Persistence\\MemesWebApi.Infrastructure.Persistence.csproj"
+              },
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Resources\\MemesWebApi.Infrastructure.Resources.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Infrastructure\\MemesWebApi.Infrastructure.Resources\\MemesWebApi.Infrastructure.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Enrichers.ClientInfo": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Tests\\MemesWebApi.FunctionalTests\\MemesWebApi.FunctionalTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Tests\\MemesWebApi.FunctionalTests\\MemesWebApi.FunctionalTests.csproj",
+        "projectName": "MemesWebApi.FunctionalTests",
+        "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Tests\\MemesWebApi.FunctionalTests\\MemesWebApi.FunctionalTests.csproj",
+        "packagesPath": "C:\\Users\\imbal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Tests\\MemesWebApi.FunctionalTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Presentation\\MemesWebApi.WebApi\\MemesWebApi.WebApi.csproj": {
+                "projectPath": "C:\\Users\\imbal\\source\\repos\\MemesWebApi\\Src\\Presentation\\MemesWebApi.WebApi\\MemesWebApi.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

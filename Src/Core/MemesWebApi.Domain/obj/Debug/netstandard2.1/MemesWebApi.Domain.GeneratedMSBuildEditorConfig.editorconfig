@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MemesWebApi.Domain
+build_property.ProjectDir = C:\Users\imbal\source\repos\MemesWebApi\Src\Core\MemesWebApi.Domain\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
